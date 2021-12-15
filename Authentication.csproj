@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Index.cshtml" />
+    <Content Remove="Views\Home\Secret.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Secret.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+
+</Project>
